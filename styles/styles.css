@@ -1,0 +1,64 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Manrope;
+    letter-spacing: -0.03em;
+}
+
+header {
+    padding: 33px 0 70px;
+}
+
+section {
+    margin-bottom: 150px;
+}
+
+h1, h2, h3, p, a, li, cite {
+    letter-spacing: -0.03em;
+}
+
+.container {
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+@media (max-width: 1199px) {
+    .container {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .container {
+        padding-left: 13px;
+        padding-right: 13px;
+    }
+}
+
+
+.title {
+    margin-bottom: 32px;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #121212;
+}
+
+@media (max-width: 1199px) {
+    .title {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .title {
+        font-size: 14px;
+        line-height: 19px;
+        margin-bottom: 20px;
+    }
+}

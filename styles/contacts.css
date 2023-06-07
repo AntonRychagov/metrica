@@ -1,0 +1,141 @@
+.contact__title {
+    margin-left: -2px;
+}
+
+.contact__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 51px;
+}
+
+.phone {
+    padding-top: 42px;
+}
+
+.phone__wrapper {
+    position: relative;
+}
+
+.number__phone {
+    text-decoration: none;
+    font-size: 62px;
+    line-height: 60px;
+    color: #121212;
+    margin-left: -1.1px;
+}
+
+.phone__wrapper::before {
+    content: '';
+    display: block;
+    position: absolute;
+    background-image: url(../resources/icon-phone.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    width: 13px;
+    height: 22px;
+    bottom: 87px;
+    left: -1px;
+}
+
+
+.email {
+    padding-top: 33px;
+}
+
+.login__wrapper {
+    position: relative;
+}
+
+.login__wrapper::before {
+    content: '';
+    display: block;
+    position: absolute;
+    background-image: url(../resources/icon-mail.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    width: 24px;
+    height: 24px;
+    bottom: 75px;
+    left: 2px;
+}
+
+.login__email {
+    text-decoration: none;
+    text-transform: lowercase;
+    font-size: 60px;
+    line-height: 60px;
+    color: #121212;
+}
+
+
+.login__email:hover {
+    opacity: 0.5;
+    border-bottom: 2px solid rgba(18, 18, 18, 1);
+}
+
+
+@media (max-width: 1199px) {
+    .contacts {
+        margin-bottom: 120px;
+    }
+
+    .contact__title {
+        margin-left: 1px;
+    }
+
+    .contact__list {
+        gap: 63px;
+    }
+
+    .number__phone {
+        font-size: 45px;
+    }
+
+    .login__email {
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 767px) {
+    .contacts {
+        margin-bottom: 80px;
+    }
+
+    .contact__list {
+        gap: 19px;
+    }
+
+    .phone {
+        padding-top: 37px;
+    }
+
+    .number__phone {
+        font-size: 35px;
+        line-height: 46px;
+    }
+
+    .phone__wrapper::before {
+        width: 10px;
+        height: 22px;
+        bottom: 64px;
+    }
+
+    .email {
+        padding-top: 39px;
+    }
+    
+    .login__email {
+        font-size: 35px;
+        line-height: 46px;
+        margin-left: -2px;
+    }
+
+    .login__wrapper::before {
+        width: 18px;
+        height: 21px;
+        bottom: 65px;
+        margin-left: -3px;
+    }
+}
