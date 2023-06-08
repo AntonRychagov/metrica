@@ -10,7 +10,7 @@
    width: 46%;
 }
 
-.review:last-child {
+.big__review {
     width: 75%;
 }
 
@@ -49,7 +49,7 @@
         width: calc(50% - 5px)
     }
 
-    .review:last-child {
+    .big__review {
         width: 73%;
     }
 
@@ -87,7 +87,7 @@
     }
 
     .reviews__card {
-        gap: 76.1px;
+        gap: 74.5px;
         flex-direction: column;
     }
     
@@ -99,8 +99,7 @@
         margin-top: 0px;
     }
 
-    .review:last-child {
-        width: 100%;
+    .big__review {
         margin-top: 4px;
     }
 
