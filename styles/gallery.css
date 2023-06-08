@@ -139,12 +139,11 @@ span {
         }
 
         .gallery__controls {
-            width: 99%;
+            width: 98%;
             justify-content: space-between;
             margin-left: -36px;
             bottom: 189px;
             padding-left: 10px;
-            padding-right: 5px;
         }
 
         .gallery__control-prev {
