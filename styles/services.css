@@ -138,6 +138,9 @@
     line-height: 34px;
     border-style: unset;
     border-bottom: 1px solid #000000;
+}
+
+.input:focus {
     outline: none;
 }
 
